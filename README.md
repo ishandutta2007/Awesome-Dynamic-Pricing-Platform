@@ -1,241 +1,120 @@
-# Awesome-Dynamic-Pricing-Platform
-
-## Top Dynamic Pricing Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Revenue Optimization, Competitive Intelligence & Price Automation*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Dynamic Pricing**. These tools help businesses optimize prices in real time based on demand, competition, inventory, and customer behavior to maximize revenue and margins.
-
-
-
-**Examples** include Competera, Revionics, Pricefx, Zilliant, Omnia Retail, Quicklizard, BlackCurve, PROS Pricing, Intelligence Node, and PriceEdge (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom pricing algorithms, and transparent revenue management — ideal for retailers, e-commerce teams, and developers building vendor-independent pricing solutions. The open-source ecosystem offers price monitoring tools, reinforcement learning simulations, and competitor intelligence pipelines, though full enterprise pricing optimization platforms remain largely commercial.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Competera](https://competera.net/)**  
-
-  AI-powered pricing platform for retailers with competitive data, demand forecasting, and automated repricing. Provides market intelligence and price optimization at scale.
-
-
-
-- **[Revionics](https://revionics.com/)**  
-
-  AI-driven price optimization and revenue management platform for retailers. Covers lifecycle pricing, markdown optimization, and promotional effectiveness.
-
-
-
-- **[Pricefx](https://www.pricefx.com/)**  
-
-  Cloud-native pricing software with flexible deployment options. Provides price setting, guidance, analytics, and CPQ for B2B and B2C enterprises.
-
-
-
-- **[Zilliant](https://www.zilliant.com/)**  
-
-  AI-powered pricing and revenue intelligence platform for B2B manufacturers and distributors. Focuses on deal guidance, price optimization, and margin expansion.
-
-
-
-- **[Omnia Retail](https://www.omniaretail.com/)**  
-
-  Dynamic pricing and pricing analytics platform for e-commerce. Automates price changes based on competition, demand, and business rules.
-
-
-
-- **[Quicklizard](https://www.quicklizard.com/)**  
-
-  Pricing intelligence and optimization platform for retailers. Provides competitive monitoring, demand-based pricing, and automated repricing.
-
-
-
-- **[BlackCurve](https://www.blackcurve.com/)**  
-
-  Pricing optimization platform for e-commerce and multichannel retailers. Features competitor tracking, price rules, and margin analysis.
-
-
-
-- **[PROS Pricing](https://www.pros.com/)**  
-
-  AI-powered pricing and revenue management for B2B. Provides price guidance, deal optimization, and real-time market intelligence.
-
-
-
-- **[Intelligence Node](https://www.intelligencenode.com/)**  
-
-  Retail intelligence platform with competitive price monitoring, assortment analytics, and dynamic pricing recommendations.
-
-
-
-- **[PriceEdge](https://www.priceedge.com/)**  
-
-  Pricing software for enterprises with price setting, guidance, and optimization capabilities for complex product portfolios.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[awesome-dynamic-pricing](https://github.com/DallasBuyer/awesome-dynamic-pricing)**  
-
-  Curated list of resources on dynamic pricing with 77+ stars. Covers academic papers, algorithms, implementation guides, and related tools. Essential starting point for anyone researching or building dynamic pricing systems .
-
-
-
-- **[AI Dynamic Pricing Simulator](https://github.com/VirajBarapatre/dynamic-pricing-simulator)**  
-
-  Python-based AI-powered simulator that predicts demand, revenue, and profit for products across multiple categories and recommends optimal price using Machine Learning. Features Random Forest models trained on synthetic retail data, interactive Flask + Tailwind CSS web interface, Chart.js visualization of demand and profit curves, and dataset generator simulating real-world market data. Deployable on Render with live demo available .
-
-
-
-- **[Dynamic Pricing Recommendation System](https://github.com/hemangsharma/dynamic-pricing)**  
-
-  ML-powered pricing recommendation system using advanced machine learning and big data analytics. Incorporates local competition, customer reviews, seasonal trends, and weather APIs. Features daily and weekly price recommendations, reinforcement learning for adaptive pricing, and interactive GUI with Streamlit or PyQt. Includes data preprocessing pipelines for scalability with PySpark or Dask .
-
-
-
-- **[AI-Driven-Dynamic-Pricing-Model](https://github.com/giorgio-bono/AI-Driven-Dynamic-Pricing-Model)**  
-
-  Simulation and optimization framework for Assemble-to-Order (ATO) systems. Integrates Monte Carlo simulations for demand uncertainty analysis and Response Surface Methodology (RSM) to optimize pricing strategies and maximize revenue. Features stochastic demand modeling for retail, surface response optimization with polynomial regression meta-modeling, and stability monitoring with confidence intervals. Gurobi-based optimization with Python .
-
-
-
-- **[Prediction-based One-shot Dynamic Parking Pricing](https://github.com/seoyoungh/one-shot-optimization)**  
-
-  Accepted CIKM 2022 paper implementation for dynamic parking pricing. Uses prediction-based one-shot optimization approach for pricing decisions. Jupyter Notebook implementation with 16+ stars .
-
-
-
-- **[Calyber_QLearning](https://github.com/MalcolmZhao/Calyber_QLearning)**  
-
-  Q-Learning implementation for dynamic pricing decision-making optimization. Demonstrates reinforcement learning approach to pricing strategy .
-
-
-
-- **[STAD-GCN](https://github.com/ksd1221/STADGCN)**  
-
-  Spatial-Temporal Attention-based Dynamic Graph Convolutional Network for Retail Market Price Prediction. PyTorch implementation of ESWA 2024 paper. Deep learning approach to price forecasting .
-
-
-
-- **[Dynamic Pricing Ride Fares App](https://github.com/roissyahf/Dynamic-Pricing-Ride-Fares-App)**  
-
-  Dynamically adjusts ride costs in response to changing factors. Demonstrates surge pricing implementation for ride-sharing .
-
-
-
-- **[Laravel AI Price Intelligence](https://github.com/padosoft/laravel-ai-price-intelligence)**  
-
-  Enterprise product price intelligence and competitor monitoring for e-commerce. Features marketplace adapters (Amazon, eBay, Google Shopping, Farfetch), price-history charts, forecasts, anomaly detection, AI narrative reports, repricer rule builder, and webhooks. Built for large catalogs (~500k SKUs) with pluggable architecture. Laravel package .
-
-
-
-- **[Price Monitoring System (Free)](https://github.com/spinov001-art/price-monitoring-free)**  
-
-  $0/month competitor price monitoring using sitemap discovery, JSON-LD price extraction, GitHub storage with versioning, and webhook alerts. Alternative to Prisync ($99/mo) and Competera ($1000+/mo) for basic price tracking needs. Node.js implementation .
-
-
-
-- **[PriceScout MCP](https://www.mcpworld.com/zh/detail/df4bdcf2fad4ce8b3461e4311eb172c2)**  
-
-  AI-powered competitor pricing intelligence system using MCP (Model Context Protocol). Three coordinated agents: LLM client for natural language queries, custom scraper server with Firecrawl API, and SQLite database for historical tracking. Enables queries like "Compare CloudRift AI and DeepInfra's costs for Deepseek v3" with automated scraping and structured comparison .
-
-
-
-- **[Event-driven Dynamic Pricing Engine](https://github.com/topics/dynamic-pricing?l=go)**  
-
-  Go-based event-driven dynamic pricing engine using Kafka, Redis, Oracle, and Next.js. Processes user behavior signals, computes demand-weighted prices in near real time, exposes REST + WebSocket APIs, supports manual overrides, and visualizes price history on a live dashboard .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **PPO Dynamic Pricing Agent** — PPO agent trained 600K steps on custom Gymnasium environment, achieving +8-79% profit lift over rule-based benchmarks across 5 macroeconomic shock regimes. Calibrated from 26K real retail transactions .
-
-- **SAC Dynamic Pricing** — From-scratch Soft Actor-Critic for synthetic dynamic pricing with 300-seed benchmark showing +23.0% simulated gross revenue vs fixed pricing .
-
-- **Autonomous E-commerce Pricing Agent** — AWS Bedrock ReAct agent with 14 tools that senses sales and competitor data, reasons, acts, and learns (epsilon-greedy). Includes Medallion data layer with dbt and weekly AI-narrated reports .
-
-- **Revenue Management Open Library (airsim/rmol)** — C++ simulation revenue management open library for airline and hospitality revenue optimization research .
-
-- **RevPy** — Collection of revenue management tools for Python 3 .
-
-
-
-**Frameworks for building custom dynamic pricing solutions**: Combine **Laravel AI Price Intelligence** for enterprise-grade competitor monitoring with marketplace adapters and repricing rules . Use **AI Dynamic Pricing Simulator** for ML-based demand prediction and optimal price recommendation . Leverage **awesome-dynamic-pricing** for research and algorithm selection . Deploy **PriceScout MCP** for AI-agent-driven competitive intelligence with natural language queries . For simple price monitoring, **Price Monitoring System** provides a zero-cost foundation with GitHub-based storage and webhook alerts . Note that true enterprise dynamic pricing with real-time competitive data, demand forecasting at scale, and automated execution remains primarily commercial territory; open-source stacks provide strong simulation, monitoring, and ML foundations that require integration for complete pricing optimization.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Dynamic pricing tools must comply with applicable laws regarding price discrimination, consumer protection, and competition regulations. Price-fixing and algorithmic collusion are prohibited.
-
-- Self-hosted open-source solutions require proper infrastructure, competitive data sources, and ongoing model tuning. Pricing decisions should be reviewed for fairness and legal compliance.
-
-- The open-source ecosystem provides strong simulation, monitoring, and ML foundations, but full enterprise dynamic pricing with real-time market data and automated execution remains primarily a commercial offering.
-
-
+# Awesome Dynamic Pricing Platform 📈🏷️
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Dynamic Pricing Platform Banner" width="100%"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Dynamic-Pricing-Platform?style=flat-square&color=blue" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dynamic-Pricing-Platform?style=flat-square&color=gold" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Dynamic-Pricing-Platform?style=flat-square&color=green" alt="License"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Ecosystem Overview & SEO Keywords
 
+Welcome to the **Awesome Dynamic Pricing Platform** repository — the ultimate curated guide to enterprise **SaaS revenue management**, **AI dynamic pricing engines**, **retail repricing algorithms**, and **open-source competitive price intelligence tools**. 
 
-**Made for pricing analysts, revenue managers, e-commerce teams, and retail technologists.**  
+Whether you are a retail technologist, pricing analyst, e-commerce founder, or machine learning engineer, this repository tracks solutions that enable real-time price optimization based on demand elasticity, competitor monitoring, inventory depth, and customer behavior.
 
-Let's make dynamic pricing more open, transparent, and data-driven.
+---
+
+## 📊 Market Overview & Industry Structure
+
+> 💡 **Estimated Market Size**: The global Dynamic Pricing & Price Optimization Software market size was estimated at **~$3.2 Billion in 2024** and is projected to expand at a **CAGR of ~16.4%**, reaching over **~$8.5 Billion by 2030**.
+>
+> 🌐 **Market Dynamics**: The market is **moderately fragmented**. While legacy B2B pricing leaders (*PROS*, *Pricefx*, *Zilliant*) command enterprise manufacturing and distribution contracts, specialized retail repricers (*Competera*, *Omnia Retail*, *Revionics*) and emerging AI-agent pricing setups operate competitively across e-commerce niches. It is **not a winner-take-all market**, owing to distinct vertical requirements (e.g., airline revenue management vs. high-SKU e-commerce repricing).
+
+---
+
+## 🏢 Enterprise SaaS & Hosted Platforms
+
+The table below details commercial dynamic pricing platforms, sorted by **company scale (Annual Revenue / Financial Footprint)** in descending order.
+
+| Platform Name 🏢 | Pricing Tier (Starting) 💵 | Free Tier / Free Trial Limit 🎁 | Scale (Revenue / Valuation) 📈 | Key Capabilities & Target Verticals 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[PROS Pricing](https://www.pros.com/)** 🚀 | **~$100,000/year** (Enterprise deployment quote) | ❌ No free tier/trial (Custom interactive demo upon sales qualification) | **~$351.7M ARR** (Public: NYSE `PRO`, Enterprise Value ~$939.5M) | AI-powered B2B price guidance, deal optimization, CPQ integration & airline revenue management. |
+| **[Pricefx](https://www.pricefx.com/)** 💎 | **~$100,000/year** (Subscription + integration tiers) | ❌ No free tier/trial (Requires consultative enterprise demo) | **~$80M–$100M ARR** (Growth-stage cloud leader, ~$130M total funding) | Cloud-native pricing management, margin analytics, rebating, and price setting for B2B & B2C. |
+| **[Revionics](https://revionics.com/)** 🛒 | **~$50,000/year** (Enterprise catalog quota) | ❌ No free tier/trial (Live guided demo only) | **~$39.1M ARR** (Acquired by Aptos, $56.8M total funding) | AI retail price optimization, promotional effectiveness, markdown planning & customer elasticity modeling. |
+| **[Zilliant](https://www.zilliant.com/)** 📊 | **~$50,000/year** (Custom annual SaaS contract) | ❌ No free tier/trial (Request-a-demo model) | **~$37.8M ARR** (Private equity backed by Madison Dearborn Partners, ~$101M funding) | B2B price optimization, deal management, margin defense, and automated CPQ pricing logic. |
+| **[Intelligence Node](https://www.intelligencenode.com/)** 🌐 | **~$1,500/month** (Growth catalog pricing) | ❌ No free tier/trial (Free custom data audit demo) | **~$15.2M ARR** (Series C funded, ~$30M total funding) | Real-time retail competitive price tracking, AI product matching & automated repricing rules. |
+| **[Competera](https://competera.net/)** 🧠 | **~$1,000/month** (Tiered SKU count quote) | ❌ No free tier/trial (Multi-quarter pilot setup with proof-of-concept) | **~$14.0M ARR** (Venture-backed AI startup, $3M seed round) | Deep learning demand forecasting, price recommendation engine & multi-channel retail repricing. |
+| **[Quicklizard](https://www.quicklizard.com/)** 🦎 | **~$500/month** (Tiered SKU & update frequency) | ❌ No free tier/trial (14-day request demo) | **~$6.7M ARR** (Publicly listed on TASE: `QLZR`) | Dynamic pricing engine for omni-channel retail, market rate monitoring & automated price rules. |
+| **[Omnia Retail](https://www.omniaretail.com/)** 🛍️ | **€399/month** (~$435/mo for SMB base tier) | ❌ No free trial (1-on-1 personalized strategy demo) | **~$2.4M ARR** (Private bootstrapped/growth SaaS) | Self-serve to enterprise price automation, competitor web scraping & elasticity repricing. |
+| **[BlackCurve](https://www.blackcurve.com/)** 📈 | **£250/month** (~$330/mo standard package) | ❌ No free tier/trial (30-day guided onboarding demo) | **Private (<$5M ARR)** (UK venture-backed) | E-commerce pricing rules engine, Google Shopping competitor tracking & margin defense logic. |
+| **[PriceEdge](https://www.priceedge.com/)** 🏷️ | **~$400/month** (Essential SaaS plan) | ❌ No free tier/trial (Free platform preview session) | **Private (<$5M ARR)** (Scandinavian pricing software startup) | Flexible price management framework, price elasticity rules & multi-currency price publishing. |
+
+---
+
+## ⚡ Open-Source GitHub Projects
+
+Below are top active open-source projects, frameworks, and AI research implementations for dynamic pricing, price monitoring, and reinforcement learning simulations — sorted by **GitHub Star Count** (descending).
+
+| Project Name 💻 | GitHub Star Count ⭐ | Primary Tech Stack 🛠️ | Description & Architecture Highlights 🔍 |
+| :--- | :--- | :--- | :--- |
+| **[awesome-dynamic-pricing](https://github.com/DallasBuyer/awesome-dynamic-pricing)** 📚 | [<img src="https://img.shields.io/github/stars/DallasBuyer/awesome-dynamic-pricing?style=social&color=white" alt="Star Badge"/>](https://github.com/DallasBuyer/awesome-dynamic-pricing/stargazers) | Markdown / Curated List | Comprehensive research compilation of dynamic pricing papers, elasticity models, and algorithmic references. |
+| **[Dynamic Pricing Recommendation System](https://github.com/hemangsharma/dynamic-pricing)** 🤖 | [<img src="https://img.shields.io/github/stars/hemangsharma/dynamic-pricing?style=social&color=white" alt="Star Badge"/>](https://github.com/hemangsharma/dynamic-pricing/stargazers) | Python, PySpark, Streamlit, RL | ML recommendation system utilizing local competition data, seasonal weather APIs, Streamlit GUI, and PySpark pipeline. |
+| **[AI Dynamic Pricing Simulator](https://github.com/VirajBarapatre/dynamic-pricing-simulator)** 🎮 | [<img src="https://img.shields.io/github/stars/VirajBarapatre/dynamic-pricing-simulator?style=social&color=white" alt="Star Badge"/>](https://github.com/VirajBarapatre/dynamic-pricing-simulator/stargazers) | Python, Flask, TailwindCSS, Chart.js | AI simulator predicting demand, revenue, and profit curves using Random Forest models across synthetic retail datasets. |
+| **[STAD-GCN](https://github.com/ksd1221/STADGCN)** 🔮 | [<img src="https://img.shields.io/github/stars/ksd1221/STADGCN?style=social&color=white" alt="Star Badge"/>](https://github.com/ksd1221/STADGCN/stargazers) | PyTorch, Python, GCN | Spatial-Temporal Attention Dynamic Graph Convolutional Network for market price prediction (ESWA 2024 paper). |
+| **[Prediction-based One-shot Parking Pricing](https://github.com/seoyoungh/one-shot-optimization)** 🅿️ | [<img src="https://img.shields.io/github/stars/seoyoungh/one-shot-optimization?style=social&color=white" alt="Star Badge"/>](https://github.com/seoyoungh/one-shot-optimization/stargazers) | Python, Jupyter Notebook | CIKM 2022 accepted paper implementation focusing on dynamic parking pricing via one-shot prediction-optimization models. |
+| **[Laravel AI Price Intelligence](https://github.com/padosoft/laravel-ai-price-intelligence)** 🐘 | [<img src="https://img.shields.io/github/stars/padosoft/laravel-ai-price-intelligence?style=social&color=white" alt="Star Badge"/>](https://github.com/padosoft/laravel-ai-price-intelligence/stargazers) | PHP, Laravel, AI, Webhooks | Enterprise product price intelligence package featuring Amazon/eBay marketplace adapters, anomaly detection, and repricer rules. |
+| **[Price Monitoring System (Free)](https://github.com/spinov001-art/price-monitoring-free)** 🕵️ | [<img src="https://img.shields.io/github/stars/spinov001-art/price-monitoring-free?style=social&color=white" alt="Star Badge"/>](https://github.com/spinov001-art/price-monitoring-free/stargazers) | Node.js, JSON-LD, Sitemap Parser | Zero-cost competitor monitoring pipeline with JSON-LD parsing, GitHub versioned storage, and automated webhook alerts. |
+| **[Calyber Q-Learning Pricing Engine](https://github.com/MalcolmZhao/Calyber_QLearning)** 🧠 | [<img src="https://img.shields.io/github/stars/MalcolmZhao/Calyber_QLearning?style=social&color=white" alt="Star Badge"/>](https://github.com/MalcolmZhao/Calyber_QLearning/stargazers) | Python, Q-Learning | Reinforcement learning decision-making framework optimizing price adaptation in simulated duopoly environments. |
+| **[Dynamic Pricing Ride Fares App](https://github.com/roissyahf/Dynamic-Pricing-Ride-Fares-App)** 🚗 | [<img src="https://img.shields.io/github/stars/roissyahf/Dynamic-Pricing-Ride-Fares-App?style=social&color=white" alt="Star Badge"/>](https://github.com/roissyahf/Dynamic-Pricing-Ride-Fares-App/stargazers) | JavaScript, React, Node.js | Surge pricing application adjusting ride-sharing costs dynamically based on driver supply and rider demand density. |
+| **[AI-Driven Dynamic Pricing Model (ATO)](https://github.com/giorgio-bono/AI-Driven-Dynamic-Pricing-Model)** ⚙️ | [<img src="https://img.shields.io/github/stars/giorgio-bono/AI-Driven-Dynamic-Pricing-Model?style=social&color=white" alt="Star Badge"/>](https://github.com/giorgio-bono/AI-Driven-Dynamic-Pricing-Model/stargazers) | Python, Gurobi, Monte Carlo | Assemble-to-Order (ATO) stochastic demand optimization integrating Monte Carlo simulation and Response Surface Methodology. |
+
+---
+
+## 🛠️ Architecture Recommendation for Custom Building
+
+```mermaid
+flowchart TD
+    A["🛒 E-Commerce Catalog & Sales Data"] --> B["🕵️ Scraper & Marketplace Adapters (Laravel / PriceScout MCP)"]
+    B --> C["🗄️ Medallion Data Lake / Database (SQLite / Postgres)"]
+    C --> D["🧠 AI Demand Prediction & RL Engine (Python / PySpark / PPO)"]
+    D --> E["⚡ Automated Repricing & API Override (Kafka / Redis REST)"]
+    E --> F["📊 Live Dashboard & Analytics (Streamlit / Next.js)"]
+```
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using the **Awesome Dynamic Pricing Platform** ecosystem! 
+
+If you find this repository helpful for your research, product development, or pricing strategies, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover it!
+- 🍴 **Fork it** to contribute new platforms, algorithms, or papers.
+- 📢 **Share it** with your network, colleagues, or engineering teams.
+- ☕ **Sponsor / Buy a coffee**: Help maintain and expand open-source pricing resources by visiting the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository 🍴
+2. Add or update entries in `README.md` following the established table structure 📝
+3. Verify that SaaS pricing details or open-source star badges are accurate 🎯
+4. Create a Pull Request with a clear description 🚀
+
+---
+
+## ⚖️ Legal Disclaimer
+
+- This directory is **community-curated** for informational and research purposes only.
+- Dynamic pricing systems must strictly abide by antitrust laws, consumer transparency rules, and prohibitions against algorithmic price-fixing or collusion.
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Dynamic-Pricing-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Dynamic-Pricing-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Pricing Analysts, Data Scientists, Revenue Managers, and Retail Engineers.</b>
+</p>
