@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="350" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern (Background Dynamic Element) -->
+  <g opacity="0.12">
+    <path d="M0 50 H1200 M0 100 H1200 M0 150 H1200 M0 200 H1200 M0 250 H1200 M0 300 H1200" stroke="#ffffff" stroke-width="1" />
+    <path d="M100 0 V350 M200 0 V350 M300 0 V350 M400 0 V350 M500 0 V350 M600 0 V350 M700 0 V350 M800 0 V350 M900 0 V350 M1000 0 V350 M1100 0 V350" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <!-- Dynamic Animated Dynamic Pricing Chart Lines (Low opacity / background depth) -->
+  <g opacity="0.35">
+    <!-- Animated Market Wave 1 -->
+    <path d="M 50 280 Q 200 320, 350 220 T 650 180 T 950 120 T 1150 80" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-dasharray="6,6">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="8s" repeatCount="indefinite" />
+    </path>
+    <!-- Animated Price Trend Line -->
+    <path d="M 50 250 C 250 290, 400 120, 600 190 C 800 260, 950 90, 1150 60" fill="none" stroke="url(#lineGrad)" stroke-width="4" filter="url(#glow)">
+      <animate attributeName="d" 
+        values="M 50 250 C 250 290, 400 120, 600 190 C 800 260, 950 90, 1150 60;
+                M 50 240 C 250 270, 400 150, 600 170 C 800 240, 950 110, 1150 50;
+                M 50 250 C 250 290, 400 120, 600 190 C 800 260, 950 90, 1150 60" 
+        dur="6s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Pulsing Dynamic Data Nodes (Background dynamic objects) -->
+  <g opacity="0.6">
+    <circle cx="600" cy="190" r="6" fill="#3b82f6" filter="url(#glow)">
+      <animate attributeName="r" values="4;8;4" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="950" cy="90" r="6" fill="#ec4899" filter="url(#glow)">
+      <animate attributeName="r" values="6;10;6" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- FOREGROUND LAYER: Title and Subtitle (Guaranteed high contrast & clear visibility) -->
+  <!-- Subtle dark backdrop scrim behind title text to guarantee extreme legibility -->
+  <rect x="150" y="70" width="900" height="210" rx="16" fill="#0f172a" opacity="0.65" />
+
+  <!-- Main Title -->
+  <text x="600" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="1">
+    Awesome Dynamic Pricing Platform 📈🏷️
+  </text>
+
+  <!-- Decorative Gradient Accent Bar under Title -->
+  <rect x="400" y="165" width="400" height="4" rx="2" fill="url(#accentGrad)" filter="url(#glow)" />
+
+  <!-- Subtitle Line 1 -->
+  <text x="600" y="210" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="20" fill="#cbd5e1" letter-spacing="0.5">
+    Curated Revenue Optimization Software, AI Pricing Engines &amp; Open-Source Ecosystem
+  </text>
+
+  <!-- Subtitle Line 2 (Feature Highlights / Pills inside SVG) -->
+  <g transform="translate(330, 235)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="160" height="30" rx="15" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+    <text x="80" y="19" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#a5b4fc">🤖 AI Optimization</text>
+    
+    <!-- Pill 2 -->
+    <rect x="180" y="0" width="180" height="30" rx="15" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+    <text x="270" y="19" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#d8b4fe">💡 Market Intelligence</text>
+
+    <!-- Pill 3 -->
+    <rect x="380" y="0" width="160" height="30" rx="15" fill="#1e293b" stroke="#ec4899" stroke-width="1.5" />
+    <text x="460" y="19" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#f472b6">⚡ Open Source</text>
+  </g>
+
+</svg>
